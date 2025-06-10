@@ -12,7 +12,7 @@ final ThemeData tinderTheme = ThemeData(
  textTheme: const TextTheme(
   headlineLarge: TextStyle(
     fontSize: 32,
-    fontWeight: FontWeight.bold,
+    fontWeight: FontWeight.w600,
     color: Color.fromARGB(255, 255, 255, 255),
   ),
   headlineMedium: TextStyle(
@@ -22,8 +22,7 @@ final ThemeData tinderTheme = ThemeData(
   ),
   bodyLarge: TextStyle(
     fontSize: 16,
-    color: Colors.black87,
-    height: 1.5,
+    color: Color.fromARGB(255, 255, 255, 255),
   ),
   bodyMedium: TextStyle(
     fontSize: 14,

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:tinder_clone/authenticationScreen/login_screen.dart';
+import 'package:tinder_clone/screens/splash_screen.dart';
 import 'package:tinder_clone/themes/app_theme.dart';
 
 void main() {
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Fluttinder',
       theme: tinderTheme,
       debugShowCheckedModeBanner: false,
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const SplashScreen(),
     );
   }
 }
